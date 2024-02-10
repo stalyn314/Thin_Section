@@ -18,13 +18,13 @@ tf.random.set_seed(seed)
 IMAGES_PATH = "Flicker8k_Dataset"
 
 # Desired image dimensions
-IMAGE_SIZE = (299, 299)
+IMAGE_SIZE = (499, 499)
 
 # Vocabulary size
-VOCAB_SIZE = 10000
+VOCAB_SIZE = 300
 
 # Fixed length allowed for any sequence
-SEQ_LENGTH = 25
+SEQ_LENGTH = 60
 
 # Dimension for the image embeddings and token embeddings
 EMBED_DIM = 512
@@ -67,9 +67,9 @@ def load_captions_data(filename):
             # We will remove caption that are either too short to too long
             tokens = caption.strip().split()
 
-            if len(tokens) < 5 or len(tokens) > SEQ_LENGTH:
-                images_to_skip.add(img_name)
-                continue
+            #if len(tokens) < 5 or len(tokens) > SEQ_LENGTH:
+               # images_to_skip.add(img_name)
+               # continue
 
             if img_name.endswith("jpg") and img_name not in images_to_skip:
                 # We will add a start and an end token to each caption
@@ -97,7 +97,7 @@ def custom_standardization(input_string):
     return tf.strings.regex_replace(lowercase, "[%s]" % re.escape(strip_chars), "")
 
 
-strip_chars = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+strip_chars = "!\"#$%&'()*+-/:;<=>?@[\]^_`{|}~"
 strip_chars = strip_chars.replace("<", "")
 strip_chars = strip_chars.replace(">", "")
 
@@ -141,7 +141,7 @@ def make_dataset(images, captions):
 
 
 def get_cnn_model():
-    base_model = efficientnet.EfficientNetB0(
+    base_model = efficientnet.EfficientNetB7(
         input_shape=(*IMAGE_SIZE, 3), include_top=False, weights="imagenet",
     )
     # We freeze our feature extractor
@@ -288,7 +288,7 @@ class TransformerDecoderBlock(layers.Layer):
 
 class ImageCaptioningModel(keras.Model):
     def __init__(
-        self, cnn_model, encoder, decoder, num_captions_per_image=5, image_aug=None,
+        self, cnn_model, encoder, decoder, num_captions_per_image=1, image_aug=None,
     ):
         super().__init__()
         self.cnn_model = cnn_model

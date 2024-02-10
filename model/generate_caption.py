@@ -24,19 +24,19 @@ def call_fn(batch, training):
 
 caption_model.call = call_fn
 
-# input_tensor = np.random.rand(1, 299, 299, 3)
+# input_tensor = np.random.rand(1, 499, 499, 3)
 # sample_y = tf.zeros((1, 25))
 # Call the model on the input tensor
 # caption_model((input_tensor, sample_y))
 
-sample_x, sample_y = tf.random.normal((1, 299, 299, 3)), tf.zeros((1, 25))
+sample_x, sample_y = tf.random.normal((1, 499, 499, 3)), tf.zeros((1, 25))
 caption_model((sample_x, sample_y))
 
 sample_img_embed = caption_model.cnn_model(sample_x, training=False)
 sample_enc_out = caption_model.encoder(sample_img_embed, training=False)
 caption_model.decoder(sample_y, sample_enc_out, training=False)
 print(caption_model.layers)
-caption_model.load_weights("model/model_IC.h5")
+caption_model.load_weights("model/model_CAP_SP.h5")
 
 
 def generate_caption(file):
