@@ -11,8 +11,8 @@ import pandas as pd
 st.title('Descripción automática de secciones delgadas de rocas')
 
 
-uploaded_files = st.file_uploader("Upload some file", accept_multiple_files=True)
-maxUploadSize = 10
+uploaded_files = st.file_uploader("Upload some file", accept_multiple_files=True, maxUploadSize = 10)
+
 for uploaded_file in uploaded_files:
     bytes_data = uploaded_file.read()
     st.write("filename:", uploaded_file.name)
