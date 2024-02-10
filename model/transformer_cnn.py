@@ -97,7 +97,7 @@ def custom_standardization(input_string):
     return tf.strings.regex_replace(lowercase, "[%s]" % re.escape(strip_chars), "")
 
 
-strip_chars = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+strip_chars = "!\"#$%&'()*+-/:;<=>?@[\]^_`{|}~"
 strip_chars = strip_chars.replace("<", "")
 strip_chars = strip_chars.replace(">", "")
 
@@ -141,7 +141,7 @@ def make_dataset(images, captions):
 
 
 def get_cnn_model():
-    base_model = efficientnet.EfficientNetB0(
+    base_model = efficientnet.EfficientNetB7(
         input_shape=(*IMAGE_SIZE, 3), include_top=False, weights="imagenet",
     )
     # We freeze our feature extractor
@@ -288,7 +288,7 @@ class TransformerDecoderBlock(layers.Layer):
 
 class ImageCaptioningModel(keras.Model):
     def __init__(
-        self, cnn_model, encoder, decoder, num_captions_per_image=5, image_aug=None,
+        self, cnn_model, encoder, decoder, num_captions_per_image=1, image_aug=None,
     ):
         super().__init__()
         self.cnn_model = cnn_model
