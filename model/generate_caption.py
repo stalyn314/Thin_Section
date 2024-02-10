@@ -77,7 +77,7 @@ def generate_caption(file):
     decoded_caption = decoded_caption.replace(" <end>", "").strip()
     upper_caption='. '.join(map(lambda s: s.strip().capitalize(), decoded_caption.split('.')))
     print("Predicted Caption: ", upper_caption)
-    return f'Predicted: {upper_caption}'
+    return f'Descripción: {upper_caption}'
 
 # Check predictions for a few samples
 # generate_caption('boat.jpeg')
