@@ -1,6 +1,6 @@
 tensorflow
 streamlit
-gtts==2.2.2
+gtts
 psycopg2-binary
 pandas
 numpy
