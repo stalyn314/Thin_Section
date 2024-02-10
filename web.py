@@ -7,9 +7,6 @@ import datetime
 import psycopg2
 import pandas as pd
 
-from gtts import gTTS
-from io import BytesIO
-
 st.title('Descripción automática de secciones delgadas de rocas')
 
 
@@ -27,8 +24,4 @@ for uploaded_file in uploaded_files:
     print(type(bytes_data))
     st.image(location)
     st.write(pred_caption)
-    sound_file = BytesIO()
-    tts = gTTS(pred_caption, lang='es')
-    tts.write_to_fp(sound_file)
-    st.audio(sound_file)
     st.write('____________________________________________________________________________________________')
