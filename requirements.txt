@@ -1,0 +1,6 @@
+tensorflow
+streamlit
+psycopg2-binary
+pandas
+numpy
+matplotlib
