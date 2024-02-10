@@ -29,7 +29,7 @@ caption_model.call = call_fn
 # Call the model on the input tensor
 # caption_model((input_tensor, sample_y))
 
-sample_x, sample_y = tf.random.normal((1, 499, 499, 3)), tf.zeros((1, 25))
+sample_x, sample_y = tf.random.normal((1, 299, 299, 3)), tf.zeros((1, 25))
 caption_model((sample_x, sample_y))
 
 sample_img_embed = caption_model.cnn_model(sample_x, training=False)
