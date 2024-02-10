@@ -25,11 +25,11 @@ def call_fn(batch, training):
 caption_model.call = call_fn
 
 # input_tensor = np.random.rand(1, 499, 499, 3)
-# sample_y = tf.zeros((1, 25))
+# sample_y = tf.zeros((1, 60))
 # Call the model on the input tensor
 # caption_model((input_tensor, sample_y))
 
-sample_x, sample_y = tf.random.normal((1, 499, 499, 3)), tf.zeros((1, 60))
+sample_x, sample_y = tf.random.normal((1, 299, 299, 3)), tf.zeros((1, 60))
 caption_model((sample_x, sample_y))
 
 sample_img_embed = caption_model.cnn_model(sample_x, training=False)
@@ -55,7 +55,7 @@ def generate_caption(file):
     encoded_img = caption_model.encoder(img, training=False)
 
     # Generate the caption using the Transformer decoder
-    decoded_caption = "<start>"
+    decoded_caption = "<start> "
     for i in range(max_decoded_sentence_length):
         tokenized_caption = vectorization([decoded_caption])[:, :-1]
         mask = tf.math.not_equal(tokenized_caption, 0)
@@ -63,12 +63,7 @@ def generate_caption(file):
             tokenized_caption, encoded_img, training=False, mask=mask
         )
         sampled_token_index = np.argmax(predictions[0, i, :])
-        print(sampled_token_index)
-        if sampled_token_index > 8671:
-            continue
-        else:
-            sampled_token = index_lookup[sampled_token_index]
-        
+        sampled_token = index_lookup[sampled_token_index]
         if sampled_token == "<end>":
             break
         decoded_caption += " " + sampled_token
