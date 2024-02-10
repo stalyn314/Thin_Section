@@ -18,7 +18,7 @@ tf.random.set_seed(seed)
 IMAGES_PATH = "ThinSection_Dataset"
 
 # Desired image dimensions
-IMAGE_SIZE = (499, 499)
+IMAGE_SIZE = (299, 299)
 
 # Vocabulary size
 VOCAB_SIZE = 300
