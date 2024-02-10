@@ -15,7 +15,7 @@ np.random.seed(seed)
 tf.random.set_seed(seed)
 
 # Path to the images
-IMAGES_PATH = "Flicker8k_Dataset"
+IMAGES_PATH = "ThinSection_Dataset"
 
 # Desired image dimensions
 IMAGE_SIZE = (499, 499)
