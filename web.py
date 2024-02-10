@@ -7,6 +7,8 @@ import datetime
 import psycopg2
 import pandas as pd
 
+from gtts import gTTS
+from io import BytesIO
 
 st.title('Descripción automática de secciones delgadas de rocas')
 
