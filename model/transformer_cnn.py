@@ -97,7 +97,7 @@ def custom_standardization(input_string):
     return tf.strings.regex_replace(lowercase, "[%s]" % re.escape(strip_chars), "")
 
 
-strip_chars = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+strip_chars = "!\"#$%&'()*+-/:;<=>?@[\]^_`{|}~"
 strip_chars = strip_chars.replace("<", "")
 strip_chars = strip_chars.replace(">", "")
 
