@@ -1,6 +1,6 @@
 tensorflow
 streamlit
-gtts
+gTTS
 psycopg2-binary
 pandas
 numpy
