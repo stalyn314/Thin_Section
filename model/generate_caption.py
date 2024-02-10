@@ -17,7 +17,7 @@ cnn_model = get_cnn_model()
 encoder = TransformerEncoderBlock(embed_dim=EMBED_DIM, dense_dim=FF_DIM, num_heads=1)
 decoder = TransformerDecoderBlock(embed_dim=EMBED_DIM, ff_dim=FF_DIM, num_heads=2)
 caption_model = ImageCaptioningModel(
-    cnn_model=cnn_model, encoder=encoder, decoder=decoder, image_aug=None,
+    cnn_model=cnn_model, encoder=encoder, decoder=decoder, image_aug=image_augmentation,
 )
 def call_fn(batch, training):
     return batch
