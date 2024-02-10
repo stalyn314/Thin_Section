@@ -8,12 +8,12 @@ from tensorflow.keras import layers
 from tensorflow.keras.applications import efficientnet
 from tensorflow.keras.layers import TextVectorization
 from model.transformer_cnn import *
-vocab = vectorization.get_vocabulary()
 
+vocab = vectorization.get_vocabulary()
 index_lookup = dict(zip(range(len(vocab)), vocab))
 max_decoded_sentence_length = SEQ_LENGTH - 1
-cnn_model = get_cnn_model()
 
+cnn_model = get_cnn_model()
 encoder = TransformerEncoderBlock(embed_dim=EMBED_DIM, dense_dim=FF_DIM, num_heads=1)
 decoder = TransformerDecoderBlock(embed_dim=EMBED_DIM, ff_dim=FF_DIM, num_heads=2)
 caption_model = ImageCaptioningModel(
