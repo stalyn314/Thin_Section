@@ -7,6 +7,9 @@ import datetime
 import psycopg2
 import pandas as pd
 
+[theme]
+backgroundColor="#FFFFFF"
+
 st.title('Descripción automática de secciones delgadas de rocas')
 
 
