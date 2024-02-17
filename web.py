@@ -3,7 +3,6 @@ import requests
 import numpy as np
 from PIL import Image
 from model.generate_caption import *
-from model.tts import *
 import datetime
 import psycopg2
 import pandas as pd
@@ -22,11 +21,6 @@ for uploaded_file in uploaded_files:
       f.write(uploaded_file.getbuffer()) 
     pred_caption = generate_caption(location)
     print(pred_caption)
-    tts = gTTS(pred_caption)
-    tts.save('1.wav')
-    sound_file = '1.wav'
-    Audio(sound_file, autoplay=True)
-    print(type(bytes_data))
     st.image(location)
     st.write(pred_caption)
     st.write('____________________________________________________________________________________________')
