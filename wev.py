@@ -23,9 +23,10 @@ for uploaded_file in uploaded_files:
     pred_caption = generate_caption(location)
 
     tts = gTTS(pred_caption, lang='es', slow=False,tld='com.mx')
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
-      tts.save(fp.name)
-      st.audio(fp.name, format="audio/mp3")
+    #with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
+      tts.save('descripcion.mp3')
+      mp3_descripcion='descripcion.mp3'
+      st.audio(mp3_descripcion, format="audio/mp3")
     
     print(type(bytes_data))
     st.image(location)
