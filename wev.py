@@ -22,7 +22,7 @@ for uploaded_file in uploaded_files:
       f.write(uploaded_file.getbuffer()) 
     pred_caption = generate_caption(location)
 
-    tts = gTTS(pred_caption, lang='es', slow=False)
+    tts = gTTS(pred_caption, lang='es', slow=False,tld='com.mx')
     with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
       tts.save(fp.name)
       st.audio(fp.name, format="audio/mp3")
