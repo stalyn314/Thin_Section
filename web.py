@@ -3,7 +3,7 @@ import requests
 import numpy as np
 from PIL import Image
 from model.generate_caption import *
-from mode.tts import *
+from model.tts import *
 import datetime
 import psycopg2
 import pandas as pd
