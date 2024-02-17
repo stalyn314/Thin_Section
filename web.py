@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import numpy as np
+from gtts import gTTS
 from PIL import Image
 from model.generate_caption import *
 import datetime
