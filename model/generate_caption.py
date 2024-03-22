@@ -19,7 +19,7 @@ decoder = TransformerDecoderBlock(embed_dim=EMBED_DIM, ff_dim=FF_DIM, num_heads=
 caption_model = ImageCaptioningModel(
     cnn_model=cnn_model, encoder=encoder, decoder=decoder, image_aug=None,
 )
-def call_fn(batch, training):
+def call_fn(batch):
     return batch
 
 caption_model.call = call_fn
