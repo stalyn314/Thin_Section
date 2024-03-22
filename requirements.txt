@@ -1,5 +1,5 @@
 tensorflow
-streamlit
+streamlit == 1.4.0
 gtts
 psycopg2-binary
 pandas
