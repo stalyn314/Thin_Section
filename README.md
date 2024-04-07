@@ -1,11 +1,5 @@
 # Automatic description of rock thin sections: a web application
-<h3>Tech stack and Tools</h3> 
-<li>Tensorflow</li>
-<li>Streamlit</li>
-<li>PostgresQL</li>
-<li>Visual Studio Code</li>
-<li>Anaconda</li>
-<li>Google Colab (Jupiter Notebook)</li>
+
 
 ## What is Image Captioning problem ?
 <p>Image captioning is the process of generating a natural language description of an image. It is a task in the field of computer vision and natural language processing. The goal of image captioning is to generate a coherent and fluent sentence that accurately describes the image content.</p>
@@ -43,33 +37,7 @@ cd Image-Captioning-with-Transformer
 conda create --name image-captioning
 conda activate image-captioning
 ```
-### Install dependencies
-```
-conda install -c anaconda pip
-pip install -r requirements.txt
-```
 
-### Connect Streamlit to PostgreSQL
-Read this document from Streamlit: https://docs.streamlit.io/knowledge-base/tutorials/databases/postgresql#add-username-and-password-to-your-local-app-secrets. Then go to pgAminIII, press _Add the connection to server_ and fill this form.
-
-
-![image](https://user-images.githubusercontent.com/79329526/213474760-fb74bf0c-52b5-4f75-a098-9cfceb068756.png)
-
-In .streamlit/secrets.toml file. Change these information to YOUR PostgreSQL information. 
-
-```
-[postgres]
-host="localhost"
-port=5432
-user="postgres"
-password="12345"
-database="postgres"
-```
-### Open the streamlit file and run demo
-
-```
-streamlit run web.py
-```
 
 ### Demo
 
