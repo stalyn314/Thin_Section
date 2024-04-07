@@ -1,7 +1,7 @@
 <h1 align="center">Automatic description of rock thin sections: a web application</h1>
 
 
-<h1 align="center">![Static Badge](https://img.shields.io/badge/Transformer-blue?link=https%3A%2F%2Farxiv.org%2Fabs%2F1706.03762)</h1>
+![Static Badge](https://img.shields.io/badge/Transformer-blue?link=https%3A%2F%2Farxiv.org%2Fabs%2F1706.03762)
 
 
 
