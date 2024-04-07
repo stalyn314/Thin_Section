@@ -1,8 +1,9 @@
 <h1 align="center">Automatic description of rock thin sections: a web application</h1>
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
+![Static Badge](https://img.shields.io/badge/Transformer-blue)
 
-## What is Image Captioning problem ?
+
+## What are rock thin sections
 <p>Image captioning is the process of generating a natural language description of an image. It is a task in the field of computer vision and natural language processing. The goal of image captioning is to generate a coherent and fluent sentence that accurately describes the image content.</p>
 
 An image captioning system typically consists of two main components:
@@ -13,7 +14,7 @@ An image captioning system typically consists of two main components:
 
 <li>The generated captions are typically evaluated using metrics such as BLEU, METEOR, ROUGE, and CIDEr.</li>
 
-## How to run this project
+## The Image Captioning Model
 
 This project uses streamlit to demo the result of EfficentNet + Transformer (Trained with 11 epoches) and connect with PostgreSQL to save the information about the picture and some metadata to a database.
 
@@ -26,7 +27,8 @@ Python 3: https://www.youtube.com/watch?v=z3Hdewxuuoo
 Anaconda: https://www.youtube.com/watch?v=5kuqIFDouXY
 
 After completed install these things, you can do the below step.
-### Clone the project
+
+##
 
 ```
 git clone https://github.com/TomatoFT/Image-Captioning-with-Transformer
