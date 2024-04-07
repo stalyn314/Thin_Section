@@ -1,4 +1,7 @@
+<p align="center">
 # Automatic description of rock thin sections: a web application
+</p>
+
 
 
 ## What is Image Captioning problem ?
