@@ -31,29 +31,6 @@ So first you will need to install Anaconda, PostgreSQL and Python 3. Depend on y
 
 PostgreSQL + pgAdminIII: https://www.youtube.com/watch?v=-LwI4HMR_Eg
 
-Python 3: https://www.youtube.com/watch?v=z3Hdewxuuoo
-
-Anaconda: https://www.youtube.com/watch?v=5kuqIFDouXY
-
-After completed install these things, you can do the below step.
-
-##
-
-```
-git clone https://github.com/TomatoFT/Image-Captioning-with-Transformer
-cd Image-Captioning-with-Transformer
-```
-### Create and Enter the Anaconda Environment
-
-```
-conda create --name image-captioning
-conda activate image-captioning
-```
-
-
-### Demo
-
-https://user-images.githubusercontent.com/79329526/213480883-1d2a87f9-b72a-4475-a32a-1c4ca119afbb.mp4
 
 ### Exit Anaconda Environment
 
