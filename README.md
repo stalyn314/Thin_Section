@@ -1,5 +1,7 @@
 <h1 align="center">Automatic description of rock thin sections: a web application</h1>
 
+![Alt text](https://github.com/stalyn314/Thin_Section/blob/main/tested_image/T_08495.jpg?raw=true "Title")
+
 
 ![Static Badge](https://img.shields.io/badge/Transformer-blue?link=https%3A%2F%2Farxiv.org%2Fabs%2F1706.03762)
 
