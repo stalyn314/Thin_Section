@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import keras
 from keras import layers
-from tensorflow.keras.applications import efficientnet
-from tensorflow.keras.layers import TextVectorization
+from keras.applications import efficientnet
+from keras.layers import TextVectorization
 from model.transformer_cnn import *
 vocab = vectorization.get_vocabulary()
 
