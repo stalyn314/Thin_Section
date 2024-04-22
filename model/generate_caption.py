@@ -3,8 +3,8 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras import layers
+import keras
+from keras import layers
 from tensorflow.keras.applications import efficientnet
 from tensorflow.keras.layers import TextVectorization
 from model.transformer_cnn import *
