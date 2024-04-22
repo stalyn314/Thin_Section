@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras import layers
-from tensorflow.keras.applications import efficientnet
-from tensorflow.keras.layers import TextVectorization
+from keras import layers
+from keras.applications import efficientnet
+from keras.layers import TextVectorization
 
 
 seed = 111
