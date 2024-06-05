@@ -16,7 +16,7 @@ uploaded_files = st.file_uploader("Carga imágenes de secciones delgadas de roca
 for uploaded_file in uploaded_files:
     bytes_data = uploaded_file.read()
     st.write("Nombre del archivo:", uploaded_file.name)
-    print('Name of the file upload is: ',uploaded_file.name)
+    print('Nombre del archivo es: ',uploaded_file.name)
     location = f'Upload/{uploaded_file.name}'
     with open(os.path.join("Upload",uploaded_file.name),"wb") as f: 
       f.write(uploaded_file.getbuffer()) 
