@@ -18,7 +18,7 @@ for uploaded_file in uploaded_files:
     st.write("Nombre del archivo:", uploaded_file.name)
     print('Nombre del archivo es: ',uploaded_file.name)
     location = f'{uploaded_file.name}'
-    with open(os.path.join("Upload",uploaded_file.name),"wb") as f: 
+    with open(os.path.join(uploaded_file.name),"wb") as f: 
       f.write(uploaded_file.getbuffer()) 
     pred_caption = generate_caption(location)
 
