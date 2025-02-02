@@ -18,7 +18,7 @@
 
 
 
-## What are rock thin sections
+## What are rock thin sections?
 
 In petrography and optical mineralogy, a thin section is a fine slice of a rock or mineral sample (30 μm thick), prepared in a laboratory to be used with a petrographic microscope.
 
