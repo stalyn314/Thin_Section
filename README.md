@@ -17,15 +17,10 @@
 
 
 ## What are rock thin sections
-<p>Image captioning is the process of generating a natural language description of an image. It is a task in the field of computer vision and natural language processing. The goal of image captioning is to generate a coherent and fluent sentence that accurately describes the image content.</p>
 
-An image captioning system typically consists of two main components:
+A thin section is a fine cut of a rock or mineral sample prepared in a laboratory with a standard thickness of approximately 25 − 30μm, which is analyzed with a petrographic microscope ( Raith, Raase, & Reinhardt, 2012). 
 
-<li>An image feature extractor: This component is responsible for extracting features from the input image, such as object locations, sizes, and colors.
-
-<li>A natural language generator: This component takes the image features as input and generates a natural language description of the image.</li>
-
-<li>The generated captions are typically evaluated using metrics such as BLEU, METEOR, ROUGE, and CIDEr.</li>
+These sections provide valuable information on the mineralogical composition, texture, type, and other characteristics of the rocks.
 
 ## Automatic description (Image Captioning)
 
