@@ -42,7 +42,7 @@ The Transformer has become the foundation for many state-of-the-art models in th
 ## Project Code and Dataset
 
 The code for this project can be found in the following Google Colab link:
-[Google Colab Code](https://colab.research.google.com/drive/11ZR1QGw1H8uCoN7g2dHZSyh7f8OeHUwH?usp=sharing)
+[![Open in Google Colab](https://img.shields.io/badge/Open%20in-Google%20Colab-blue?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/11ZR1QGw1H8uCoN7g2dHZSyh7f8OeHUwH?usp=sharing)
 
 You can also explore the application here:
 [Auto-Description Web Application](https://stalynpaucar271828.wixsite.com/auto-descripcion)
@@ -52,7 +52,8 @@ For further details, you can access the related paper:
 
 ## Reference Repository
 
-This repository is a modification of the [Image-Captioning](https://github.com/TomatoFT/Image-Captioning) repository, , in turn, is based on the work by Nain, A. (2021) in *Image captioning* (Code examples-Computer Vision). The source code is available at: [https://keras.io/examples/vision/image_captioning/](https://keras.io/examples/vision/image_captioning/). 
+This repository is a modification of the [Image-Captioning](https://github.com/TomatoFT/Image-Captioning) repository, which in turn is based on the work by Nain, A. (2021) in *Image captioning* (Code examples-Computer Vision). The source code is available at: [https://keras.io/examples/vision/image_captioning/](https://keras.io/examples/vision/image_captioning/). 
+
 Adjustments and improvements have been made to tailor it to the specific needs of this project.
 
 
