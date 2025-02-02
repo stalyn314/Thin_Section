@@ -44,17 +44,17 @@ The Transformer has become the foundation for many state-of-the-art models in th
 ## Project Code and Dataset
 
 The code for this project can be found in the following Google Colab link:
-<a href="https://colab.research.google.com/drive/11ZR1QGw1H8uCoN7g2dHZSyh7f8OeHUwH?usp=sharing" target="_blank">
+<a href="https://colab.research.google.com/drive/11ZR1QGw1H8uCoN7g2dHZSyh7f8OeHUwH?usp=sharing">
   <img src="https://img.shields.io/badge/Open%20in-Google%20Colab-blue?logo=googlecolab&logoColor=white" alt="Open in Google Colab">
 </a>
 
 You can also explore the application here:
-<a href="https://stalynpaucar271828.wixsite.com/auto-descripcion" target="_blank">
+<a href="https://stalynpaucar271828.wixsite.com/auto-descripcion">
   <img src="https://img.shields.io/badge/Visit%20Auto%20Description%20App-brightgreen" alt="Visit Auto-Description Web App">
 </a>
 
 For further details, you can access the related paper:
-<a href="https://arxiv.org/abs/2402.15039" target="_blank">
+<a href="https://arxiv.org/abs/2402.15039">
   <img src="https://img.shields.io/badge/Research%20Paper-%20arXiv-red" alt="Research Paper">
 </a>
 
