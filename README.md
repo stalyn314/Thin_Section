@@ -3,6 +3,8 @@
 <div align="center">
 <img src="https://img.shields.io/badge/Transformer-blue?link=https%3A%2F%2Farxiv.org%2Fabs%2F1706.03762" alt="Static Badge">
 <img src="https://img.shields.io/badge/Convolutional%20Neural%20Network-green" alt="Convolutional Neural Network Badge">
+<img src="https://img.shields.io/badge/Rock%20Thin%20Sections-red" alt="Rock Thin Sections Badge">
+  
 </div>
 
 <p align="center">
