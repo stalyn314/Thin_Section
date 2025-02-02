@@ -1,5 +1,5 @@
 <h1 align="center">Automatic description of rock thin sections: a web application</h1>
-<p align="center"><font size="7">Stalyn Paucar, Christian Mejía-Escobar, Víctor Collaguazo</font></p>
+<p align="center"><font size="40">Stalyn Paucar, Christian Mejía-Escobar, Víctor Collaguazo</font></p>
 <p align="center" style="font-size: 14;">Universidad Central del Ecuador-Facultad de Ingeniería en Geología, Minas, Petróleos y Ambiental</p>
 
 <div align="center">
