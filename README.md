@@ -12,8 +12,8 @@
   <img width="460" height="300" src="https://github.com/stalyn314/Thin_Section/blob/main/tested_image/T_08495.jpg?raw=true">
 </p>
 
+<!--(https://shields.io/badges/static-badge) -->
 
-https://shields.io/badges/static-badge
 
 
 ## What are rock thin sections
