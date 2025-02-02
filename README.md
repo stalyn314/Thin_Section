@@ -26,27 +26,33 @@ They are an indispensable tool for geologists, offering a window into the micros
 
 ## Automatic description (Image Captioning)
 
-<p>Image captioning is the process of generating a natural language description of an image. It is a task in the field of computer vision and natural language processing. The goal of image captioning is to generate a coherent and fluent sentence that accurately describes the image content.</p>
+The rise of Artificial Intelligence has sparked widespread interest across various scientific disciplines for data analysis, including images, videos, text, and numerical data, with the aim of improving efficiency in study and research processes. This approach has caught the attention of geology, which seeks to leverage these technologies to optimize the interpretation and analysis of geological data, especially in areas such as mineral identification, structures, and textures in rock samples.
 
-An image captioning system typically consists of two main components:
+The goal of automatic image captioning is to generate a coherent and fluent sentence that accurately describes the content of the image.
 
-<li>An image feature extractor: This component is responsible for extracting features from the input image, such as object locations, sizes, and colors.
+**Convolutional Neural Network**  
+This is a type of network specifically designed to process data with a grid-like structure, such as images.
+It is responsible for extracting features from the input image, such as the locations, sizes, and colors of objects.
 
-<li>A natural language generator: This component takes the image features as input and generates a natural language description of the image.</li>
+**Transformer**  
+This is a neural network architecture primarily designed for natural language processing tasks. It was first proposed in the paper *"Attention is All You Need"* in 2017 by Vaswani et al.
+Instead of relying on recurrences or convolutions, the Transformer uses attention mechanisms to process input and output sequences in a parallel and efficient manner.
+The Transformer has become the foundation for many state-of-the-art models in the field of natural language processing, including BERT and GPT.
 
-<li>The generated captions are typically evaluated using metrics such as BLEU, METEOR, ROUGE, and CIDEr.</li>
+## Project Code and Dataset
 
-### Exit Anaconda Environment
+The code for this project can be found in the following Google Colab link:
+[Google Colab Code](https://colab.research.google.com/drive/11ZR1QGw1H8uCoN7g2dHZSyh7f8OeHUwH?usp=sharing)
 
-```
-conda deactivate
-```
-## Note
-Training model file is here: https://colab.research.google.com/drive/1K2ZFaAUNIYV0L92XEsV56HSYaXi4DMDh?usp=sharing. I use this file to train model and save its weights to local computer to deploy in Streamlit (You can find it at model/model_IC.h5).
+You can also explore the application here:
+[Auto-Description Web Application](https://stalynpaucar271828.wixsite.com/auto-descripcion)
 
-The model tutorial: https://keras.io/examples/vision/image_captioning/
+For further details, you can access the related paper:
+[Research Paper](https://arxiv.org/abs/2402.15039)
 
-You can read the submitted report to understand the process I do this project.
+## Reference Repository
 
-Feel free to clone my code to use.
+This repository is a modification of the [Image-Captioning](https://github.com/TomatoFT/Image-Captioning) repository, , in turn, is based on the work by Nain, A. (2021) in *Image captioning* (Code examples-Computer Vision). The source code is available at: [https://keras.io/examples/vision/image_captioning/](https://keras.io/examples/vision/image_captioning/). 
+Adjustments and improvements have been made to tailor it to the specific needs of this project.
+
 
