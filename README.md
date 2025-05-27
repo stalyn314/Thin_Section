@@ -54,8 +54,8 @@ You can also explore the application here:
 </a>
 
 For further details, you can access the related paper:
-<a href="https://arxiv.org/abs/2402.15039">
-  <img src="https://img.shields.io/badge/Research%20Paper-%20arXiv-red" alt="Research Paper">
+<a href="https://www.sciencedirect.com/science/article/pii/S2666544125000140">
+  <img src="https://img.shields.io/badge/Research%20Paper-ScienceDirect-blue" alt="Research Paper">
 </a>
 
 ## Reference Repository
