@@ -73,9 +73,6 @@ Paucar, S., Mejia-Escobar, C., & Collaguazo, V. (2025). *Automatic description o
 
 ###  BibTeX
 
-<details>
-  <summary>Click to copy BibTeX</summary>
-
 ```bibtex
 @article{PAUCAR2025100118,
   author = {Paucar, Stalyn and Mejía, Christian and Collaguazo, Victor},
