@@ -78,7 +78,7 @@ Paucar, S., Mejia-Escobar, C., & Collaguazo, V. (2025). *Automatic description o
 
 ```bibtex
 @article{PAUCAR2025100118,
-  author = {Stalyn Paucar and Christian Mejia-Escobar and Victor Collaguazo},
+  author = {Paucar, Stalyn and Mejía, Christian and Collaguazo, Victor},
   title = {Automatic description of rock thin sections: A web application},
   journal = {Artificial Intelligence in Geosciences},
   pages = {100118},
