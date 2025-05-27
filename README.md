@@ -69,7 +69,7 @@ If you use this work or find it helpful, **please cite our paper** using the fol
 
 ## 📖 How to Cite This Work
 
-Paucar, S., Mejia-Escobar, C., & Collaguazo, V. (2025). *Automatic description of rock thin sections: A web application*. Artificial Intelligence in Geosciences, 100118. https://doi.org/10.1016/j.aiig.2025.100118
+Paucar, S., Mejia-Escobar, C., & Collaguazo, V. (2025). *Automatic description of rock thin sections: A web application*. Artificial Intelligence in Geosciences. https://doi.org/10.1016/j.aiig.2025.100118
 
 ###  BibTeX
 
@@ -84,5 +84,3 @@ Paucar, S., Mejia-Escobar, C., & Collaguazo, V. (2025). *Automatic description o
   doi = {https://doi.org/10.1016/j.aiig.2025.100118},
   url = {https://www.sciencedirect.com/science/article/pii/S2666544125000140},
 }
-
-
