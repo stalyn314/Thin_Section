@@ -65,3 +65,27 @@ This repository is a modification of the [Image-Captioning](https://github.com/T
 Adjustments and improvements have been made to tailor it to the specific needs of this project.
 
 
+If you use this work or find it helpful, **please cite our paper** using the following format:
+
+## 📖 How to Cite This Work
+
+Paucar, S., Mejia-Escobar, C., & Collaguazo, V. (2025). *Automatic description of rock thin sections: A web application*. Artificial Intelligence in Geosciences, 100118. https://doi.org/10.1016/j.aiig.2025.100118
+
+###  BibTeX
+
+<details>
+  <summary>Click to copy BibTeX</summary>
+
+```bibtex
+@article{PAUCAR2025100118,
+  author = {Stalyn Paucar and Christian Mejia-Escobar and Victor Collaguazo},
+  title = {Automatic description of rock thin sections: A web application},
+  journal = {Artificial Intelligence in Geosciences},
+  pages = {100118},
+  year = {2025},
+  issn = {2666-5441},
+  doi = {https://doi.org/10.1016/j.aiig.2025.100118},
+  url = {https://www.sciencedirect.com/science/article/pii/S2666544125000140},
+}
+
+
