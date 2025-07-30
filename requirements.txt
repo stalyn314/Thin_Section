@@ -1,9 +1,7 @@
 tensorflow
-runtime
 streamlit
 gtts
 psycopg2-binary
 pandas
 numpy
 matplotlib
-
