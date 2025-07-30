@@ -142,7 +142,7 @@ def make_dataset(images, captions):
 
 def get_cnn_model():
     base_model = efficientnet.EfficientNetB0(
-        input_shape=(*IMAGE_SIZE, 3), include_top=False, weights="imagenet",
+        input_shape=(*IMAGE_SIZE, 1), include_top=False, weights="imagenet",
     )
     # We freeze our feature extractor
     base_model.trainable = False
