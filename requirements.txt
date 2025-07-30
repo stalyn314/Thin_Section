@@ -1,4 +1,5 @@
-tensorflow
+tensorflow==2.15.0
+keras==2.15.0
 streamlit
 gtts
 psycopg2-binary
